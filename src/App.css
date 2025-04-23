@@ -1,0 +1,20 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  padding: 8rem 2rem;
+  background-color: #f4f4f4;
+}
+
+@media (max-width: 768px) {
+  .page {
+    /* padding: 0.625rem 1.5rem; */
+  }
+}
+
+@media (max-width: 480px) {
+  .page {
+    /* padding: 10rem 1rem; */
+  }
+}
